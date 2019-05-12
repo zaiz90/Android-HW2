@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="James’s mom has four children. Their names are April, May, June, and ____?"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:layout_margin="40dp"
+
+        android:id="@+id/question"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="July"
+        android:padding="8dp"
+        android:layout_margin="24dp"
+        android:id="@+id/choice1"/>
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="August" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="James"
+        android:padding="8dp"
+        android:layout_margin="24dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="January"
+        android:padding="8dp"
+        android:layout_margin="24dp"
+        android:id="@+id/choice4"/>
+
+
+
+</LinearLayout>
